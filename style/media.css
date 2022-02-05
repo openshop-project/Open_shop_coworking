@@ -1,0 +1,16 @@
+@media (max-width:768px) {
+  .navbar-nav{
+    gap: 30px;
+  }
+}
+@media (max-width:576px) {
+  .logo::before{
+    content: url(../img/logo-white.png);
+    width: 100px !important;
+  }
+}
+@media (max-width:300px) {
+  .footer-link span::before{
+    font-size: 20px;
+  }
+}
