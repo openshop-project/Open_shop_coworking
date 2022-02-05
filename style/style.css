@@ -241,20 +241,13 @@ a{
   font-size: 40px;
 }
 .footer__form{
-  max-width: 520px;
-  width: 100%;
+  width: 520px;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.footer__form input{
- max-width: 330px;
- width: 100%;
- padding: 10px;
 }
 .footer__btn{
   padding: 20px auto;
-  width: 190px;
+  height: 42px;
   border: none;
   color: #fff;
   text-transform: uppercase;
