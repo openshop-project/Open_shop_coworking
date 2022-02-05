@@ -9,6 +9,9 @@
 *{
   box-sizing: border-box;
 }
+body{
+  font-family: var(--NR);
+}
 h1,
 h2,
 h3,
@@ -24,9 +27,10 @@ a{
 .header__top{
   background-color: #212529;
 }
-.navbar-nav{
+.header__top .navbar-nav{
   gap: 80px;
 }
+
 .nav-item{
   display: inline-block;
 }
@@ -82,7 +86,7 @@ a{
   padding: 15px 0;
 }
 .header-nav .navbar-nav{
-  gap: 15px;
+  gap: 80px;
 }
 .header-nav .nav-link{
   color:var(--mainDark);
