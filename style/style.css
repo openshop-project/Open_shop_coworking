@@ -264,6 +264,12 @@ a{
   line-height: 25px;
   background-color: var(--mainDark);
   outline: 1px solid #fff;
+  transition: .5s;
+}
+.footer__btn:hover{
+   background-color: #fff;
+   color: #000;
+   cursor: pointer;
 }
 #dropdownMenuButton1::after{
    display: none;
