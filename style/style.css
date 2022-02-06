@@ -69,6 +69,10 @@ a{
   font-size: 14px;
   line-height: 19px;
   color: #BBBBBB;
+  border: 1px solid #000;
+}
+#navbarSupportedContent{
+   align-self: flex-end;
 }
 .input:focus{
   outline: none;
@@ -91,7 +95,7 @@ a{
   padding: 15px 0;
 }
 .header-nav .navbar-nav{
-  gap: 80px;
+  gap: 15px;
 }
 .carousel-indicators{
   gap: 15px;
@@ -107,6 +111,8 @@ a{
 }
 .carousel-indicators [data-bs-target].active{
   background-color: #313131;
+  width: 15px;
+  height: 15px;
 }
 .carousel-control-next-icon{
   color: var(--mainDark);
@@ -245,6 +251,9 @@ a{
   display: flex;
   align-items: center;
 }
+.footer__input{
+   padding: 0 10px;
+}
 .footer__btn{
   padding: 20px auto;
   height: 42px;
@@ -255,4 +264,7 @@ a{
   line-height: 25px;
   background-color: var(--mainDark);
   outline: 1px solid #fff;
+}
+#dropdownMenuButton1::after{
+   display: none;
 }
